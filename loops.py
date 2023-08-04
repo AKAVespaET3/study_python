@@ -54,8 +54,8 @@ fruits_enumerate = enumerate(fruits)
 for index_fruit in fruits_enumerate: #듀플 묶음
     print(index_fruit)
 
-fruits_enumerate = enumerate(fruits)
-fruit_print_format = "number: {0}, fruit name : {1}"
+fruits_enumerate = enumerate(fruits) # 끝까지 돌면 없는걸로 인식 다시 선언 해줘야함
+fruit_print_format = "number: {0}, fruit name : {1}" # 되도록이면 {}안에 순서 정해줘라 
 for (index, fruit) in fruits_enumerate: #듀플 묶음
     print(fruit_print_format.format(index, fruit))
     pass
