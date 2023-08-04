@@ -17,5 +17,22 @@ thislist[1]  = 'watermelon'
 # thislist.sort() 오름차순
 # thislist.sort(reverse=True) 내림차순
 
+# 붙여넣기
 
+thislist = ["apple", "banana", "cherry"]
+
+#추가
+thislist.append('orange') 
+
+#삭제
+thislist.pop()
+
+# 초기화 방식
+thislist = []
+thislist = list() 
+# List thislist = new List();
+
+# 형변환
+words = str()
+pass
 
